@@ -6,6 +6,7 @@ import {
 
 const tests: Test<string, number>[] = [
   { input: '', expected: 0 },
+  { input: 'balon', expected: 0 },
   { input: 'nlaebolko', expected: 1 },
   { input: 'loonbalxballpoon', expected: 2 },
   { input: 'leetcode', expected: 0 },

@@ -16,9 +16,9 @@ export function maxNumberOfBalloons(text: string): number {
   const freq: number[] = [];
   map.forEach((value, key) => {
     if (['l', 'o'].includes(key)) {
-      freq.push(value / 2);
+      freq.push(Math.floor(value / 2));
     } else {
-      freq.push(value);
+      freq.push(Math.floor(value / 1));
     }
   });
 
